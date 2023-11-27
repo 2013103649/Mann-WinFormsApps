@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApps", "WinFormsApps\WinFormsApps.csproj", "{E6D04A6F-0120-4EA6-A916-EE995499C880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wage Calculator", "Wage Calculator\Wage Calculator.csproj", "{D8F4B23A-84AB-42A1-A0C6-C8E2DC370893}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labels", "Labels\Labels.csproj", "{078375B7-8485-4A9F-BFB2-7D4C35B71F9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picture Box", "Picture Box\Picture Box.csproj", "{FAC6B6C5-C3B8-4843-86B6-653666EA1073}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picture Box 2", "Picture Box 2\Picture Box 2.csproj", "{7AB8FAF2-3415-4E99-BE09-7C44169574CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackBar", "TrackBar\TrackBar.csproj", "{B2330780-0274-4114-9BA6-92D73ED43DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "ComboBox\ComboBox.csproj", "{EE075401-33E7-4E65-8483-0C2AD5CB111B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D04A6F-0120-4EA6-A916-EE995499C880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D04A6F-0120-4EA6-A916-EE995499C880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D04A6F-0120-4EA6-A916-EE995499C880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F4B23A-84AB-42A1-A0C6-C8E2DC370893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F4B23A-84AB-42A1-A0C6-C8E2DC370893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F4B23A-84AB-42A1-A0C6-C8E2DC370893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078375B7-8485-4A9F-BFB2-7D4C35B71F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078375B7-8485-4A9F-BFB2-7D4C35B71F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078375B7-8485-4A9F-BFB2-7D4C35B71F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC6B6C5-C3B8-4843-86B6-653666EA1073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC6B6C5-C3B8-4843-86B6-653666EA1073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC6B6C5-C3B8-4843-86B6-653666EA1073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB8FAF2-3415-4E99-BE09-7C44169574CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB8FAF2-3415-4E99-BE09-7C44169574CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB8FAF2-3415-4E99-BE09-7C44169574CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB8FAF2-3415-4E99-BE09-7C44169574CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2330780-0274-4114-9BA6-92D73ED43DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2330780-0274-4114-9BA6-92D73ED43DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2330780-0274-4114-9BA6-92D73ED43DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2330780-0274-4114-9BA6-92D73ED43DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE075401-33E7-4E65-8483-0C2AD5CB111B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE075401-33E7-4E65-8483-0C2AD5CB111B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE075401-33E7-4E65-8483-0C2AD5CB111B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE075401-33E7-4E65-8483-0C2AD5CB111B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D81D710B-E24F-48FC-BFB5-5A8D2343E766}
+	EndGlobalSection
+EndGlobal
