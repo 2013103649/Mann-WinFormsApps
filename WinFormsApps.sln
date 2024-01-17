@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34031.81
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApps", "WinFormsApps\WinFormsApps.csproj", "{E6D04A6F-0120-4EA6-A916-EE995499C880}"
 EndProject
@@ -17,9 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackBar", "TrackBar\TrackB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComboBox", "ComboBox\ComboBox.csproj", "{EE075401-33E7-4E65-8483-0C2AD5CB111B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowser", "WebBrowser\WebBrowser.csproj", "{788A719C-52F7-413C-B856-ACFD83694BF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBrowser", "WebBrowser\WebBrowser.csproj", "{788A719C-52F7-413C-B856-ACFD83694BF4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openfile", "Openfile\Openfile.csproj", "{DBECDD7D-CABD-4395-9628-CBBB04A75518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Text Additor app", "Text Additor app\Text Additor app.csproj", "{3645F236-D1A9-4A7D-ABDC-7A9556F82F47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opening forms", "Opening forms\Opening forms.csproj", "{08E51C4B-3AD3-4B0D-B2B8-A0314A86997F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menustrips and Tooltips", "Menustrips and Tooltips\Menustrips and Tooltips.csproj", "{B9E81DB3-B4C0-4BB0-96CC-F75327329338}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leaders of Rome", "Leaders of Rome\Leaders of Rome.csproj", "{80590F51-67A9-4BFC-97B0-645D1A0216A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress indicators", "Progress indicators\Progress indicators.csproj", "{40A06481-42D8-4B22-A852-B50BEB7C56BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +69,26 @@ Global
 		{DBECDD7D-CABD-4395-9628-CBBB04A75518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBECDD7D-CABD-4395-9628-CBBB04A75518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBECDD7D-CABD-4395-9628-CBBB04A75518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3645F236-D1A9-4A7D-ABDC-7A9556F82F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3645F236-D1A9-4A7D-ABDC-7A9556F82F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3645F236-D1A9-4A7D-ABDC-7A9556F82F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3645F236-D1A9-4A7D-ABDC-7A9556F82F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E51C4B-3AD3-4B0D-B2B8-A0314A86997F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E51C4B-3AD3-4B0D-B2B8-A0314A86997F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E51C4B-3AD3-4B0D-B2B8-A0314A86997F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E51C4B-3AD3-4B0D-B2B8-A0314A86997F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E81DB3-B4C0-4BB0-96CC-F75327329338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E81DB3-B4C0-4BB0-96CC-F75327329338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E81DB3-B4C0-4BB0-96CC-F75327329338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E81DB3-B4C0-4BB0-96CC-F75327329338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80590F51-67A9-4BFC-97B0-645D1A0216A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80590F51-67A9-4BFC-97B0-645D1A0216A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80590F51-67A9-4BFC-97B0-645D1A0216A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80590F51-67A9-4BFC-97B0-645D1A0216A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A06481-42D8-4B22-A852-B50BEB7C56BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A06481-42D8-4B22-A852-B50BEB7C56BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A06481-42D8-4B22-A852-B50BEB7C56BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A06481-42D8-4B22-A852-B50BEB7C56BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
