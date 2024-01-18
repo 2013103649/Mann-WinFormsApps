@@ -103,9 +103,49 @@ namespace Leaders_of_Rome.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Lamberto_Dini {
+            get {
+                object obj = ResourceManager.GetObject("Lamberto Dini", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Massimo_D_Alema {
+            get {
+                object obj = ResourceManager.GetObject("Massimo D\'Alema", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Romano_Prodi {
+            get {
+                object obj = ResourceManager.GetObject("Romano Prodi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rrrrrrr {
             get {
                 object obj = ResourceManager.GetObject("rrrrrrr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Silvio_Berlusconi {
+            get {
+                object obj = ResourceManager.GetObject("Silvio Berlusconi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -33,13 +33,24 @@ namespace Progress_indicators
 
         private void backgroundWorker1_ProgressChanged(object sender, System.ComponentModel.ProgressChangedEventArgs e)
         {
+            circularProgressBar1.Value = e.ProgressPercentage;
+            circularProgressBar1.Text = e.ProgressPercentage.ToString() + "%";
             progressBar1.Value = e.ProgressPercentage;
             materialLabel1.Text = e.ProgressPercentage.ToString() + "%";
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
-            MessageBox.Show("Download completed");
+            DialogResult dr = MessageBox.Show("Download completed", "Download completed", MessageBoxButtons.OK);
+
+            if (dr == DialogResult.OK)
+            {
+                circularProgressBar1.Value = 0;
+                circularProgressBar1.Text = "0%";
+
+                progressBar1.Value = 0;
+                materialLabel1.Text = "0%";
+            }
         }
 
         private void backgroundWorker2_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
@@ -60,6 +71,11 @@ namespace Progress_indicators
         private void backgroundWorker2_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
             MessageBox.Show("Download completed");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            circularProgressBar1.Value = 0;
         }
     }
 }

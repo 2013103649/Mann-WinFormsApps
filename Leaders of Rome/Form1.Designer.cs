@@ -1,6 +1,6 @@
 ﻿namespace Leaders_of_Rome
 {
-    partial class Form1
+    partial class Firstform
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Firstform));
             menuStrip1 = new MenuStrip();
             ancientToolStripMenuItem = new ToolStripMenuItem();
             anToolStripMenuItem = new ToolStripMenuItem();
@@ -47,6 +47,7 @@
             menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
+            menuStrip1.ItemClicked += menuStrip1_ItemClicked;
             // 
             // ancientToolStripMenuItem
             // 
@@ -66,7 +67,7 @@
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(177, 6);
+            toolStripSeparator1.Size = new Size(157, 6);
             // 
             // toolStripTextBox1
             // 
@@ -79,6 +80,7 @@
             currentItalianPrimeMinistersToolStripMenuItem.Name = "currentItalianPrimeMinistersToolStripMenuItem";
             currentItalianPrimeMinistersToolStripMenuItem.Size = new Size(195, 20);
             currentItalianPrimeMinistersToolStripMenuItem.Text = "Current Italian Prime Ministers";
+            currentItalianPrimeMinistersToolStripMenuItem.Click += currentItalianPrimeMinistersToolStripMenuItem_Click;
             // 
             // label1
             // 
@@ -89,7 +91,7 @@
             label1.Text = "Click on the above options to see current and past Italian Leaders ";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // Firstform
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -98,7 +100,7 @@
             Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
+            Name = "Firstform";
             Text = "Leaders of Rome";
             Load += Form1_Load;
             menuStrip1.ResumeLayout(false);

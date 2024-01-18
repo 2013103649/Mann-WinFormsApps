@@ -35,6 +35,7 @@
             progressBar2 = new ProgressBar();
             materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            circularProgressBar1 = new CircularProgressBar_NET5.CircularProgressBar();
             SuspendLayout();
             // 
             // materialLabel1
@@ -99,11 +100,44 @@
             backgroundWorker2.ProgressChanged += backgroundWorker2_ProgressChanged;
             backgroundWorker2.RunWorkerCompleted += backgroundWorker2_RunWorkerCompleted;
             // 
+            // circularProgressBar1
+            // 
+            circularProgressBar1.AnimationFunction = WinFormAnimation_NET5.KnownAnimationFunctions.Linear;
+            circularProgressBar1.AnimationSpeed = 500;
+            circularProgressBar1.BackColor = Color.Transparent;
+            circularProgressBar1.Font = new Font("Segoe UI", 39.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            circularProgressBar1.ForeColor = Color.FromArgb(64, 64, 64);
+            circularProgressBar1.InnerColor = Color.FromArgb(224, 224, 224);
+            circularProgressBar1.InnerMargin = 2;
+            circularProgressBar1.InnerWidth = -1;
+            circularProgressBar1.Location = new Point(381, 12);
+            circularProgressBar1.MarqueeAnimationSpeed = 2000;
+            circularProgressBar1.Name = "circularProgressBar1";
+            circularProgressBar1.OuterColor = Color.Black;
+            circularProgressBar1.OuterMargin = -25;
+            circularProgressBar1.OuterWidth = 26;
+            circularProgressBar1.ProgressColor = Color.Cyan;
+            circularProgressBar1.ProgressWidth = 25;
+            circularProgressBar1.SecondaryFont = new Font("Segoe UI", 36F);
+            circularProgressBar1.Size = new Size(179, 175);
+            circularProgressBar1.StartAngle = 270;
+            circularProgressBar1.SubscriptColor = Color.FromArgb(166, 166, 166);
+            circularProgressBar1.SubscriptMargin = new Padding(10, -35, 0, 0);
+            circularProgressBar1.SubscriptText = "";
+            circularProgressBar1.SuperscriptColor = Color.FromArgb(166, 166, 166);
+            circularProgressBar1.SuperscriptMargin = new Padding(10, 35, 0, 0);
+            circularProgressBar1.SuperscriptText = "";
+            circularProgressBar1.TabIndex = 5;
+            circularProgressBar1.Text = "0%";
+            circularProgressBar1.TextMargin = new Padding(8, 8, 0, 0);
+            circularProgressBar1.Value = 68;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(circularProgressBar1);
             Controls.Add(materialLabel2);
             Controls.Add(progressBar2);
             Controls.Add(button1);
@@ -111,6 +145,7 @@
             Controls.Add(materialLabel1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -124,5 +159,6 @@
         private ProgressBar progressBar2;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private CircularProgressBar_NET5.CircularProgressBar circularProgressBar1;
     }
 }
